@@ -10,7 +10,7 @@ import "./about.scss"
 
 const About = () => {
   return (
-    <div className='contact-page'>
+    <div className='contact-page'>  
         <div className="header-navbar">
         <div className="gradiant">
       <Container className="gradiant-container">
