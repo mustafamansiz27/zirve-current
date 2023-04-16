@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from "../../../assets/img/product/2.png";
-import aboutResim from "../../../assets/img/product/03819ee6-44ea-4a31-9601-a7cf58127cca.jpg"
+import aboutResim from "../../../assets/img/product/03819ee6-44ea-4a31-9601-a7cf58127cca.jpg";
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { FaWhatsapp } from 'react-icons/fa';
