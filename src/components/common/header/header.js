@@ -47,6 +47,37 @@ const Header = () => {
       
       </div>
 
+
+      <div className="planning-photo  mt-5">
+         <Row>
+          <Col lg={4} className="p-0"> <img  src={require(`../../../assets/img/product/2b0aac9b-2c97-4ee1-955e-19baeb62eb1b.jpg`)} alt="" className="img-fluid h-100 w-100"  /> </Col>
+          <Col lg={4} className="p-0"> <img src={require(`../../../assets/img/product/5de2d230-0a81-40b7-b9eb-6282dc3d4f53.jpg`)} alt="" className="img-fluid h-100 w-100" /> </Col>
+          <Col lg={4} >
+             <h2 className="planning-text bg-dark text-light">Geleceğinizi güvence altına mı almak istiyorsunuz ?Siz hayal edin biz yapalım...</h2> 
+             <p>At the core of our practice is the idea that cities are the incubators of our greatest achievements, and the best hope for a sustainable future.</p>
+          </Col>
+         </Row>
+      </div>
+
+      <div className="save-life  text-light text-center container-fluid mt-5">
+        
+          <img src="" alt="" />
+        
+      </div>
+
+      <div className="save-lives">
+         <Container>
+          <Row>
+
+            <Col>1</Col>
+            <Col>2</Col>
+            
+          </Row>
+          
+
+         </Container>
+      </div>
+
       <Container className="top-body">
         <Row className="mt-5 ">
           <Col lg={9} className="arrow-col-parent" >
@@ -84,7 +115,7 @@ const Header = () => {
                     src={require(`../../../assets/img/product/isteğe-göre-tekkatlı-ev.jpg`)}
                     alt=""
                   />{" "}
-                  <figcaption className="figcaption">Tek Katlı Prefabrik evler</figcaption>{" "}
+                  <figcaption className="figcaption">Dublex Prefabrik evler</figcaption>{" "}
                 </figure>
               </Col>
               <Col lg={12} className="right-image">

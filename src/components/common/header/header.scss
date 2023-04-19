@@ -1,4 +1,6 @@
-
+@use "../../../assets/scss/variables" as v;
+@use "../../../assets/scss/mixins" as m;
+$breakpoint: 992px;
 
 .home-page{
 
@@ -9,11 +11,11 @@
   background-color: rgba(234, 236, 239, 0.928);
 
   .gradiant{
-    background-image: linear-gradient(to bottom, #e5a2a2cd, #fadfdfbe), url("../../../assets/img/product/0aa0ee14-5e8c-4244-a15c-266c8e5e33a0.jpg");
+  
+    background-image: linear-gradient(to bottom, #0a0a0acd, #fadfdfbe), url("../../../assets/img/product/0aa0ee14-5e8c-4244-a15c-266c8e5e33a0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    // background-image: linear-gradient(180deg,  rgb(98, 98, 103),  rgb(149, 149, 191) );
   
     .gradiant-container{
       .zirve-topbar{
@@ -48,7 +50,7 @@
           align-items: center;
           z-index: 99;
             a{
-              color: rgb(18, 18, 20);
+              color: rgb(241, 241, 247);
               text-decoration: none;
               font-size: 3rem;
               @media (max-width:768px) {
@@ -71,7 +73,7 @@
  
   }
   .navbar-streach{
-    background-image: linear-gradient(180deg,rgb(95, 95, 241), #e5a2a2cd   );
+    background-image: linear-gradient(180deg,rgb(95, 95, 241), #817d7dcd   );
     font-size: 1.2rem;
     
     .container{
@@ -84,6 +86,49 @@
         }
       }
     }
+  }
+
+  .planning-photo{
+    
+    .row{
+      // height: 80vh;
+    [class^="col"]{
+      &:nth-child(3){
+        
+        // background-color: rgb(244, 243, 243);
+        padding: 0;
+        
+        
+        .planning-text{ 
+          @include m.flexbox(row,center,center,1);
+          font-size: 2rem;
+          padding: 6rem 1.5rem;
+          font-weight: 500;
+          
+        }
+        p{
+          font-size: 1.5rem;
+          padding: 3rem;
+        }
+      }
+    }
+  }
+  }
+  .save-life{
+    background-image: linear-gradient(to left, #0a0a0ae8, #0e0c0c7d),  url("../../../assets/img/product/0aa0ee14-5e8c-4244-a15c-266c8e5e33a0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 70vh;
+   position: relative;
+  }
+  .save-lives{
+    position: absolute;
+    
+    top: 50%;
+    right: 50%;
+    z-index: 99;
+    
   }
 
 
@@ -188,14 +233,14 @@
 
   
 .footer{
-  background-image: linear-gradient(to bottom, #e5a2a2cd, #fadfdfbe), url("../../../assets/img/product/isteğe-göre-tekkatlı-ev.jpg");
+  background-image: linear-gradient(to bottom, #160303ee, #161414bd), url("../../../assets/img/product/isteğe-göre-tekkatlı-ev.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
   // background-color: rgb(149, 140, 140);
   padding: 10rem;
-  color: rgb(48, 1, 50);
+  color: rgb(252, 246, 252);
   margin-top: 2rem;
   
   .row{
@@ -220,11 +265,11 @@
       }
 
       h2{
-        color: rgb(13, 13, 11);
+        color: rgba(10, 220, 235, 0.908);
         font-weight: 800;
         cursor: pointer;
         &:hover{
-          color: rgb(119, 121, 5);
+          color: rgb(235, 201, 28);
           transform: scale(1.1);
         }
         
@@ -240,7 +285,7 @@
 
 
         .whatsUp{
-          background-color: rgb(146, 191, 79);
+          background-color: rgb(21, 182, 12);
           border-radius: 50%;
         
           
