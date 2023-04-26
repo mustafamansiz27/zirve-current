@@ -12,7 +12,7 @@ $breakpoint: 992px;
 
   .gradiant{
   
-    background-image: linear-gradient(to bottom, #0a0a0acd, #fadfdfbe), url("../../../assets/img/product/0aa0ee14-5e8c-4244-a15c-266c8e5e33a0.jpg");
+    background-image: linear-gradient(to bottom, #0a0a0acd, #9a9696be), url("../../../assets/img/product/0aa0ee14-5e8c-4244-a15c-266c8e5e33a0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -26,25 +26,25 @@ $breakpoint: 992px;
         [class^="col"]{
           &:nth-child(1){
             z-index: 99;
+
+            a{
+              img{
+                @media (max-width:470px) {
+                   width: 25rem; 
+                   
+                }
+              }
+            }
           }
          
         
         }
-        // &::after{
-        //   content: "";
-        //   position: absolute;
-        //   top: 0;
-        //   right: 0;
-        //   bottom: 0;
-        //   left: 0;
-        //   background-image: linear-gradient(180deg,  rgb(98, 98, 103),  rgb(149, 149, 191) );
-        //   z-index: 0;
-        // }
-    
+       ;
+      
         
       
         .top-number{
-          // text-align: center;
+          
           display: flex;
           justify-content: center;
           align-items: center;
@@ -119,17 +119,67 @@ $breakpoint: 992px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 70vh;
-   position: relative;
-  }
-  .save-lives{
-    position: absolute;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    top: 50%;
-    right: 50%;
-    z-index: 99;
+
+   .save-lives{
+    margin-top: 20rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+    .cardInİmage{
+
+      width: 100vw;
+     
+     
+      .row{
+       .one, .two, .three, .four{
+           .card{
+            
+            border-top-left-radius: 5rem;
+            border-top-right-radius: 5rem;
+            border-bottom-left-radius: 1rem ;
+            border-bottom-right-radius: 1rem ;
+            color: black;
+             margin-top:5rem; 
+             width: 10rem;
+             border-radius: ( 3rem, 0, 0, 0 ) ;
+             img{
+              height: 10rem;
+              width: 10rem;
+              margin: auto;
+            }
+
+             @media (max-width:576px) {
+              margin: auto;
+              
+            }
+            @media (max-width:992px) {
+               margin: auto;
+               margin-top: 1rem;
+            }
+         
+            
+           }
+          
+       
+       }
+      }
+    }
+    
+   
+    
     
   }
+  }
+  
 
 
 
