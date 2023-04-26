@@ -12,7 +12,7 @@ $breakpoint: 992px;
 
   .gradiant{
   
-    background-image: linear-gradient(to bottom, #0a0a0acd, #9a9696be), url("../../../assets/img/product/0aa0ee14-5e8c-4244-a15c-266c8e5e33a0.jpg");
+    background-image: linear-gradient(to bottom, #0a0a0acd, #1d1a1abe), url("../../../assets/img/product/0aa0ee14-5e8c-4244-a15c-266c8e5e33a0.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -31,6 +31,7 @@ $breakpoint: 992px;
               img{
                 @media (max-width:470px) {
                    width: 25rem; 
+                   color: white;
                    
                 }
               }
@@ -119,7 +120,7 @@ $breakpoint: 992px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    // height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -127,16 +128,21 @@ $breakpoint: 992px;
     
 
    .save-lives{
-    margin-top: 20rem;
-    height: 100vh;
+    margin-top: 10rem;
+    // height: 100vh;
     justify-content: center;
     align-items: center;
+
+    .work-aria{
+       margin-bottom: 5rem;
+    }
     
    
 
     .cardInİmage{
 
       width: 100vw;
+      margin-bottom: 3rem;
      
      
       .row{
@@ -148,7 +154,7 @@ $breakpoint: 992px;
             border-bottom-left-radius: 1rem ;
             border-bottom-right-radius: 1rem ;
             color: black;
-             margin-top:5rem; 
+          
              width: 10rem;
              border-radius: ( 3rem, 0, 0, 0 ) ;
              img{
@@ -295,6 +301,16 @@ $breakpoint: 992px;
   
   .row{
     [class^="col"]{
+      .gmail-info{
+        white-space: nowrap;
+      }
+      .instegram-info{
+        white-space: nowrap;
+        a{
+          text-decoration: none;
+          color:  rgb(252, 246, 252);
+        }
+      }
 
       h2{
         border-bottom: 1px dotted rgb(102, 101, 101) ;

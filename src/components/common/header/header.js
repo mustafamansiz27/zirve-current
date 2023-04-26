@@ -4,6 +4,7 @@ import Slider from "./slider";
 import CardsData from "./slides.json";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaHighlighter, FaWhatsapp } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 import logo from "../../../assets/img/product/2.png";
 import { Card, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
@@ -94,11 +95,14 @@ const Header = () => {
         <img src="" alt="" />
 
         <div className="save-lives ">
-          <h2 className="text-light">ÇALIŞMA ALANLARIMIZ</h2>
-          <p  className="text-light">Önceliklerimiz önceliklerinizdir</p>
+          <div className="work-aria">
+          <h2 className="text-light ">ÇALIŞMA ALANLARIMIZ</h2>
+          <p  className="text-light ">Önceliklerimiz önceliklerinizdir</p>
+          </div>
+          
           <Container className="cardInİmage">
             <Row className=" ">
-              <Col lg={3} md={6} sm={6} className="one">
+              <Col  xs={12} sm={6}  lg={3} className="one">
                 <Card >
                   <Card.Img variant="top" className="img-fluid rounded-circle" src={require(`../../../assets/img/product/20037216-9307-42a8-9619-cf604f27ff0d.jpg`)}  />
                   <Card.Body>
@@ -109,7 +113,7 @@ const Header = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col lg={3} md={6}  sm={6} className=" two ">
+              <Col  xs={12} sm={6}  lg={3} className=" two ">
               <Card>
                   <Card.Img variant="top"  className="img-fluid rounded-circle text-danger" src={require(`../../../assets/img/product/d34821d5-3ee8-4246-9bd4-55105122df26.jpg`)} />
                   <Card.Body>
@@ -120,7 +124,7 @@ const Header = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col lg={3} md={6}  sm={6} className="three">
+              <Col  xs={12} sm={6}  lg={3} className="three">
               <Card >
                   <Card.Img variant="top" className="img-fluid rounded-circle "  src={require(`../../../assets/img/product/f7c84ffb-1668-4e54-a9f2-c0a346e7097f.jpg`)} />
                   <Card.Body>
@@ -131,7 +135,7 @@ const Header = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col lg={3} md={6}  sm={6} className="four">
+              <Col  xs={12} sm={6}  lg={3} className="four">
               <Card >
                   <Card.Img variant="top" className="img-fluid rounded-circle" src={require(`../../../assets/img/product/eed36386-2056-43f7-9ea2-e127601d8170.jpg`)} />
                   <Card.Body>
@@ -247,8 +251,14 @@ const Header = () => {
                 <BsFillTelephoneFill /> 0554 138 50 12
               </a>{" "}
             </p>
-            <p>
+            <p className="gmail-info">
               <GrMail /> info@zirveprefabrilkonteyner.com
+            </p>
+            <p className="instegram-info">
+              <a href="@zirveprefabrikkonteyner">
+              <AiFillInstagram/>  @zirveprefabrikkonteyner
+              </a>
+             
             </p>
           </Col>
           <Col lg={3}>
