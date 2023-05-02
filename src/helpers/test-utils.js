@@ -6,7 +6,7 @@ import { Provider } from 'react-redux'
 
 export function renderWithProviders(
   ui,
-  {
+  {  
     preloadedState = {},
     // Automatically create a store instance if no store was passed in
     store = configureStore({ reducer: { user: authSlice, reservation:reservationSlice }, preloadedState }),
