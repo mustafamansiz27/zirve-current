@@ -106,7 +106,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Prefabrik</Card.Title>
                     <Card.Text>
-                    <FaBed/> <FaToilet/>
+                    80m<sup>2</sup> <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
