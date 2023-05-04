@@ -80,13 +80,10 @@ const Header = () => {
           </Col>
           <Col lg={4}>
             <h2 className="planning-text bg-dark text-light">
-              Geleceğinizi güvence altına mı almak istiyorsunuz ?Siz hayal edin
-              biz yapalım...
+            İyi, uygun maliyetli inşaat bilimini doğru ürün ve malzemelerle birleştirmenin, çevreye duyarlı olurken daha sağlıklı ve verimli bir ev oluşturmaya yardımcı olabileceğini anlıyoruz..
             </h2>
             <p>
-              At the core of our practice is the idea that cities are the
-              incubators of our greatest achievements, and the best hope for a
-              sustainable future.
+            Ev yapımında 5 yıldan fazla deneyime sahip olan ekibimiz, kaliteli ürünler, kaliteli inşaat ve müşteri memnuniyeti sağlamak için gerekenlere sahiptir.
             </p>
           </Col>
         </Row>
