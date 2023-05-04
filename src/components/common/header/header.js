@@ -3,7 +3,7 @@ import Menubar from "./menubar";
 import Slider from "./slider";
 import CardsData from "./slides.json";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaHighlighter, FaWhatsapp } from "react-icons/fa";
+import { FaBed, FaHighlighter, FaToilet, FaWhatsapp } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrMail } from "react-icons/gr";
 import logo from "../../../assets/img/product/2.png";
@@ -106,7 +106,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Prefabrik</Card.Title>
                     <Card.Text>
-                    ZİRVE
+                    <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -117,7 +117,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Konteyner</Card.Title>
                     <Card.Text>
-                     ZİRVE
+                    <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -128,7 +128,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Kır Evi</Card.Title>
                     <Card.Text>
-                    ZİRVE
+                    <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -139,7 +139,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Çelik Yapı</Card.Title>
                     <Card.Text>
-                    ZİRVE
+                    <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
