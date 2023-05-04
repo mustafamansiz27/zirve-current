@@ -117,7 +117,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Konteyner</Card.Title>
                     <Card.Text>
-                    <FaBed/> <FaToilet/>
+                    21m<sup>2</sup>  <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -128,7 +128,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Kır Evi</Card.Title>
                     <Card.Text>
-                    <FaBed/> <FaToilet/>
+                    90m<sup>2</sup> <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -139,7 +139,7 @@ const Header = () => {
                   <Card.Body>
                     <Card.Title>Çelik Yapı</Card.Title>
                     <Card.Text>
-                    <FaBed/> <FaToilet/>
+                    21m<sup>2</sup> <FaBed/> <FaToilet/>
                     </Card.Text>
                   </Card.Body>
                 </Card>
