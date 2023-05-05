@@ -7,11 +7,13 @@ import { FaWhatsapp } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
 import "./about.scss"
+import Menubar from '../header/menubar';
 
 const About = () => {
   return (
     <div className='contact-page'>  
-        <div className="header-navbar">
+    < Menubar/>
+        {/* <div className="header-navbar">
         <div className="gradiant">
       <Container className="gradiant-container">
       <Row className="zirve-topbar">
@@ -42,7 +44,7 @@ const About = () => {
           </Container>
         </Navbar>
       
-      </div>
+      </div> */}
 
          <Container className='about-body'>
             <Row>

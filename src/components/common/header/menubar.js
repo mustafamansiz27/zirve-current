@@ -1,26 +1,59 @@
 import React from 'react';
-import { Container, Nav, Navbar } from "react-bootstrap";
-// import {AiFillContacts, AiFillHome} from "react-icons/ai"
-// import headerLogo from "../../../assets/img/product/2.png"
-import navLogo from "../../../assets/img//product/2.png" 
+import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import logo from "../../../assets/img/product/2.png";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { Link, useParams } from "react-router-dom";
+
+
+
 import "./menubar.scss"
 
 const Menubar = () => {
   return (
-    <Navbar bg="secondary" expand="lg" className='menubar'>
-    <Container className='container'>
-      <Navbar.Brand href="#home"> <img src={navLogo} className='img-fluid'  alt="zirve prefabrik konteyner" height={200}/> </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" className='navbar-links-collapse'>
-        <Nav className="me-auto navbar-links">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Container>
-  </Navbar>
+    <div className="header-navbar">
+    <div className="gradiant">  
+      <Container className="gradiant-container">
+        <Row className="zirve-topbar">
+          <Col>  
+            {" "}
+            <a href="">
+              {" "}
+              <img src={logo} alt="prefabrik ev" />{" "}
+            </a>
+          </Col>
+
+          <Col className="top-number">
+            <a href="tel:05541385012">
+              {" "}
+              <BsFillTelephoneFill /> 0554 138 50 12{" "}
+            </a>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+
+    <Navbar className="navbar-streach fixed-top" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home">Hayalleriniz Burada</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse className="justify-content-end ">
+          <Nav.Link as={Link} to="/">
+            Ana Sayfa
+          </Nav.Link>
+          <Nav.Link as={Link} to="/about">
+            Hakkımızda
+          </Nav.Link>
+          <Nav.Link as={Link} to="/contact">
+            İletişim
+          </Nav.Link>
+          <Nav.Link as={Link} to="/konteyner">
+            Konteyner
+          </Nav.Link>
+          <Nav.Link href="#link">Yapı Malzemeleri</Nav.Link>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  </div>
   )
 }
 
