@@ -16,7 +16,7 @@ const CustomRoutes = () => {
             <Route path='konteyner' element={<KonteynerPage/>} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter>  
   )
 }
 

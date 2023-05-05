@@ -9,17 +9,21 @@ import { GrMail } from "react-icons/gr";
 import logo from "../../../assets/img/product/2.png";
 import { Card, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import "./header.scss";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
+
+
+ 
+ 
 
 const Header = () => {
   return (
     <div className="home-page">
       <div className="header-navbar">
-        <div className="gradiant">
+        <div className="gradiant">  
           <Container className="gradiant-container">
             <Row className="zirve-topbar">
-              <Col>
+              <Col>  
                 {" "}
                 <a href="">
                   {" "}
@@ -141,7 +145,9 @@ const Header = () => {
                     <Card.Text>
                     21m<sup>2</sup> <FaBed/> <FaToilet/>
                     </Card.Text>
-                  </Card.Body>
+                  </Card.Body>    
+                     
+                    
                 </Card>
               </Col>
             </Row>
