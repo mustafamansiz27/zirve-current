@@ -3,9 +3,6 @@ import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import logo from "../../../assets/img/product/2.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { Link, useParams } from "react-router-dom";
-
-
-
 import "./menubar.scss"
 
 const Menubar = () => {
