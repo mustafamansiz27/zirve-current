@@ -13,13 +13,16 @@ import { Link, useParams } from "react-router-dom";
 
 
 
+
  
  
 
 const Header = () => {
   return (
     <div className="home-page">
-      <div className="header-navbar">
+
+      <Menubar/>
+      {/* <div className="header-navbar">
         <div className="gradiant">  
           <Container className="gradiant-container">
             <Row className="zirve-topbar">
@@ -62,7 +65,7 @@ const Header = () => {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-      </div>
+      </div> */}
 
       <div className="planning-photo  mt-5">
         <Row>

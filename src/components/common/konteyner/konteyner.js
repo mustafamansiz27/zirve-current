@@ -7,42 +7,16 @@ import { Link } from 'react-router-dom';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { FaWhatsapp } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
+import Menubar from '../header/menubar';
 
 const Konteyner = () => {
   return (
     <div className='konteyner-page'>
-         <div className="header-navbar">
-        <div className="gradiant">
-      <Container className="gradiant-container">
-      <Row className="zirve-topbar">
-        <Col> <a href="">  <img src={logo} alt="prefabrik ev" /> </a></Col>
-       
-        <Col className="top-number">
-          <a href="tel:05541385012">
-              {" "}
-              <BsFillTelephoneFill /> 0554 138 50 12{" "}
-          </a>
-          
-            </Col>  
-       </Row>
-      </Container>
-      </div>
+ 
+       < Menubar/>
 
-        <Navbar  className="navbar-streach fixed-top" expand="lg"  >
-          <Container>
-            <Navbar.Brand href="#home">Hayalleriniz Burada</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse className="justify-content-end ">
-              <Nav.Link as={Link} to="/">Ana Sayfa</Nav.Link>
-              <Nav.Link as={Link} to="/about">Hakkımızda</Nav.Link>
-              <Nav.Link as={Link} to="/contact" >İletişim</Nav.Link>
-              <Nav.Link as={Link}  to="/konteyner" >Konteyner</Nav.Link>
-              <Nav.Link href="#link">Yapı Malzemeleri</Nav.Link>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      
-      </div>
+
+        
 
       <Container className="mt-5 konteyner-card">
         <Row > 
