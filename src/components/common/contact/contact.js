@@ -7,6 +7,7 @@ import { GrMail } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import "./contact.scss";
 import Menubar from "../header/menubar";
+import Footer from "../header/footer";
 
 const Contact = () => {
   return (
@@ -74,7 +75,8 @@ const Contact = () => {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
-      <div className="footer">
+      <Footer/>
+      {/* <div className="footer">
         <Row>
           <Col lg={3}>
             <h2> KURUMSAL</h2>
@@ -116,7 +118,7 @@ const Contact = () => {
             <FaWhatsapp size={32} color="green" className="whatsUp" />
           </a>
         </Row>
-      </div>
+      </div> */}
     </div>
   );
 };

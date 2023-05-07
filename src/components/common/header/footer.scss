@@ -2,7 +2,7 @@
 
 
 .footer{
-    background-image: linear-gradient(to bottom, #160303ee, #161414bd), url("../../../assets/img/product/isteğe-göre-tekkatlı-ev.jpg");
+    background-image: linear-gradient(to bottom, #181717ee, #ecdfdfbd), url("../../../assets/img/product/isteğe-göre-tekkatlı-ev.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -13,6 +13,14 @@
     margin-top: 2rem;
     
     .row{
+
+        @media (max-width:470px) {
+         transform: translateX(-40px);
+        
+            
+         }
+
+
       [class^="col"]{
         .gmail-info{
           white-space: nowrap;
