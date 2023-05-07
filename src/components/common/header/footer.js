@@ -3,7 +3,6 @@ import "./footer.scss"
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import { GrMail } from 'react-icons/gr'
 import { AiFillInstagram } from 'react-icons/ai'
-import { FaWhatsapp } from 'react-icons/fa'
 import { Col, Row } from 'react-bootstrap'
 
 const Footer = () => {
@@ -52,9 +51,7 @@ const Footer = () => {
           yapısı ile müşteri memnuniyeti odaklı bir üretim yapmaktadır.{" "}
         </p>
       </Col>
-      <a href={`https://wa.me/05541385012`} target="_blank">
-        <FaWhatsapp size={32} color="green" className="whatsUp" />
-      </a>
+    
     </Row>
   </div>
   )

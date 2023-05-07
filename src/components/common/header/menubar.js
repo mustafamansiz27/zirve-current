@@ -4,6 +4,7 @@ import logo from "../../../assets/img/product/2.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { Link, useParams } from "react-router-dom";
 import "./menubar.scss"
+import { FaWhatsapp } from 'react-icons/fa';
 
 const Menubar = () => {
   return (
@@ -20,14 +21,22 @@ const Menubar = () => {
           </Col>
 
           <Col className="top-number">
+            
             <a href="tel:05541385012">
               {" "}
               <BsFillTelephoneFill /> 0554 138 50 12{" "}
             </a>
+            
           </Col>
         </Row>
       </Container>
+     
     </div>
+    <div className='my-whatsup'>
+    <a href={`https://wa.me/05541385012`} target="_blank">
+        <FaWhatsapp size={32} color="green" className="whatsUp" />
+      </a>
+      </div>
 
     <Navbar className="navbar-streach fixed-top" expand="lg">
       <Container>

@@ -4,6 +4,30 @@ $breakpoint: 992px;
 
 .header-navbar{
   background-color: rgba(234, 236, 239, 0.928);
+ 
+  .my-whatsup{
+    position: relative;
+    
+    a{
+    position: absolute;      
+    right: 1rem;
+    bottom: 1rem;
+    position: fixed;
+    background-color: rgb(21, 182, 12);
+    border-radius: 50%;
+    z-index: 99;
+
+    &:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+      border: 2px solid  rgb(69, 111, 6);
+      
+    }
+    
+  
+    }
+    
+  }
 
   .gradiant{
   
@@ -11,6 +35,12 @@ $breakpoint: 992px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    // position: relative;
+
+
+    // a{
+    //   position: absolute;
+    // }
   
     .gradiant-container{
       .zirve-topbar{
