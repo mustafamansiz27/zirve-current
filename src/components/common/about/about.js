@@ -8,6 +8,7 @@ import { GrMail } from 'react-icons/gr';
 import { Link } from 'react-router-dom';
 import "./about.scss"
 import Menubar from '../header/menubar';
+import Footer from '../header/footer';
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
         < Menubar/>
        
 
-         <Container className='about-body'>
+         <Container className='about-body'>   
             <Row>
           <Col lg={6} className='text mt-5 ' >
              <p>
@@ -42,8 +43,8 @@ const About = () => {
          </Container>
          
 
-        
-         <div className="footer">
+         <Footer/>
+         {/* <div className="footer">
           <Row>
             <Col lg={3}>
              <h2> KURUMSAL</h2>
@@ -75,7 +76,7 @@ const About = () => {
                </a>
 
           </Row>
-        </div>
+        </div> */}
      
       
     </div>
