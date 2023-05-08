@@ -39,7 +39,7 @@ const Header = () => {
           <Col lg={4} className="p-0">
             {" "}
             <img
-              src={require(`../../../assets/img/team/planningPhotoRight.jpg`)}
+              src={require(`../../../assets/img/team/planningPhotoRight2.webp`)}
               alt=""
               className="img-fluid h-100 w-100"
             />{" "}

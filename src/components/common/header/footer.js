@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer">
     <Row>
-      <Col lg={3}>
+      <Col lg={3} md={6} >
         <h2> KURUMSAL</h2>
 
         <p>
@@ -17,7 +17,7 @@ const Footer = () => {
           binaları, deprem evleri ve hafif çelik yapılar ile başlamıştır…
         </p>
       </Col>
-      <Col lg={3}>
+      <Col lg={3} md={6} >
         <h2>İLETİŞİM</h2>
         <p>Türkiyenin Her Yerinden;</p>
         <p className="number">
@@ -37,12 +37,12 @@ const Footer = () => {
          
         </p>
       </Col>
-      <Col lg={3}>
+      <Col lg={3} md={6} > 
         <h2>ADRES</h2>
 
         <p>Sanayi Mahallesi 60098 Nolu Cad No 36 Şehitkamil/Gaziantep</p>
       </Col>
-      <Col lg={3}>
+      <Col lg={3}  md={6} >
         <h2>HAKKIMIZDA</h2>
         <p>
           ZİRVE PREFABRİK KONTEYNER, çok yönlü gelişen ve hızlı değişen
