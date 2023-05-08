@@ -31,7 +31,7 @@ const Header = () => {
           <Col lg={4} className="p-0">
             {" "}
             <img
-              src={require(`../../../assets/img/product/2b0aac9b-2c97-4ee1-955e-19baeb62eb1b.jpg`)}
+              src={require(`../../../assets/img/team/planningPhoto.jpg`)}
               alt=""
               className="img-fluid h-100 w-100"
             />{" "}
@@ -39,7 +39,7 @@ const Header = () => {
           <Col lg={4} className="p-0">
             {" "}
             <img
-              src={require(`../../../assets/img/product/5de2d230-0a81-40b7-b9eb-6282dc3d4f53.jpg`)}
+              src={require(`../../../assets/img/team/planningPhotoRight.jpg`)}
               alt=""
               className="img-fluid h-100 w-100"
             />{" "}
