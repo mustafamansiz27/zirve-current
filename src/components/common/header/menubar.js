@@ -24,7 +24,7 @@ const Menubar = () => {
             
             <a href="tel:05541385012">
               {" "}
-              <BsFillTelephoneFill /> 05336599127  {" "}
+              <BsFillTelephoneFill /> 0533 659 91 27  {" "}
             </a>
             
           </Col>
@@ -33,7 +33,7 @@ const Menubar = () => {
      
     </div>
     <div className='my-whatsup'>
-    <a href={`https://wa.me/05541385012`} target="_blank">
+    <a href={`https://wa.me/05336599127`} target="_blank">
         <FaWhatsapp size={32} color="green" className="whatsUp" />
       </a>
       </div>
