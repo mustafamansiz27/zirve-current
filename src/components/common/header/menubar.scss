@@ -75,14 +75,17 @@ $breakpoint: 992px;
           justify-content: center;
           align-items: center;
           z-index: 99;
+          
             a{
               color: rgb(241, 241, 247);
               text-decoration: none;
               font-size: 3rem;
+              
               @media (max-width:768px) {
                 font-size: 2rem;
                 margin-right: 4rem;
           }
+         
           @media (max-width:470px) { 
             // width: 25rem; 
             transform: translateX(20px);   
