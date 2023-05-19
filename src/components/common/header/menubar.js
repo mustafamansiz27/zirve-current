@@ -24,7 +24,7 @@ const Menubar = () => {
             
             <a href="tel:05541385012">
               {" "}
-              <BsFillTelephoneFill /> 0533 659 91 27  {" "}
+              <BsFillTelephoneFill /> <span className='tel-no'>0533 659 91 27 </span>  {" "}
             </a>
             
           </Col>

@@ -10,7 +10,7 @@ $breakpoint: 992px;
     
     a{
     position: absolute;      
-    right: 1rem;
+    right: 2rem;
     bottom: 1rem;
     position: fixed;
     background-color: rgb(21, 182, 12);
@@ -76,10 +76,21 @@ $breakpoint: 992px;
           align-items: center;
           z-index: 99;
           
+          
             a{
               color: rgb(241, 241, 247);
               text-decoration: none;
               font-size: 3rem;
+              
+
+              .tel-no{
+                text-shadow: 1px 1px 10px   rgba(234, 232, 112, 0.99);
+                
+             
+              }
+              
+
+              
               
               @media (max-width:768px) {
                 font-size: 2rem;
