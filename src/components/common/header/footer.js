@@ -17,21 +17,21 @@ const Footer = () => {
           binaları, deprem evleri ve hafif çelik yapılar ile başlamıştır…
         </p>
       </Col>
-      <Col lg={3} md={6} sm={6}>
+      <Col lg={3} md={6} sm={6} className='footer-contact'>
         <h2>İLETİŞİM</h2>
         <p>Türkiyenin Her Yerinden;</p>
         <p className="number">
           {" "}
-          <a href="tel:05541385012 ">
+          <a href="tel:05336599127 ">
             {" "}
-            <BsFillTelephoneFill /> 0554 138 50 12
+            <BsFillTelephoneFill /> 05336599127
           </a>{" "}
         </p>
         <p className="gmail-info">
           <GrMail /> info@zirveprefabrilkonteyner.com
         </p>
         <p className="instegram-info">
-          <a href="@zirveprefabrikkonteyner">
+          <a href="https://instagram.com/zirveprefabrikkonteyner?igshid=MzRlODBiNWFlZA==">
           <AiFillInstagram/>  @zirveprefabrikkonteyner
           </a>
          
