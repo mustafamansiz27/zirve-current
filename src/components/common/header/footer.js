@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
          
         </p>
-      </Col>
+      </Col>  
       <Col lg={3} md={6} sm={6}> 
         <h2>ADRES</h2>
 
