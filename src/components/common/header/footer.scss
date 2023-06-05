@@ -8,15 +8,23 @@
     background-position: center center;
   
     // background-color: rgb(149, 140, 140);
-    padding: 10rem;
+    padding: 10rem; 
     color: rgb(252, 246, 252);
     margin-top: 2rem;
+
+    @media (max-width:576px) {
+
+      font-size: 10px;
+      
+     }
     
     .row{
 
         @media (max-width:470px) {
          transform: translateX(-40px);
          }
+
+        
 
 
       [class^="col"]{
@@ -27,6 +35,10 @@
 
         .gmail-info{
           white-space: nowrap;
+
+          .gmail{
+            white-space: nowrap !important;
+          }
         }
         .instegram-info{
           white-space: nowrap;

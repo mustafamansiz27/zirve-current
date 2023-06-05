@@ -28,7 +28,7 @@ const Footer = () => {
           </a>{" "}
         </p>
         <p className="gmail-info">
-          <GrMail /> info@zirveprefabrilkonteyner.com
+          <GrMail/> <span className='gmail'> info@zirveprefabrilkonteyner.com </span>
         </p>
         <p className="instegram-info">
           <a href="https://instagram.com/zirveprefabrikkonteyner?igshid=MzRlODBiNWFlZA==">
