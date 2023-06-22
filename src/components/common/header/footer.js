@@ -14,7 +14,7 @@ const Footer = () => {
 
         <p>
           İdeal Prefabrik üretimine ilk olarak prefabrike konutlar, ofis
-          binaları, deprem evleri ve hafif çelik yapılar ile başlamıştır…
+          binaları, deprem evleri ve hafif çelik yapılar ile başlamıştır...
         </p>
       </Col>
       <Col lg={3} md={6} sm={6} className='footer-contact'>
